@@ -30,7 +30,7 @@ header{
     align-items: center;
 }
 .menubar ul li{
-    padding-right: 1.8rem;
+    padding-left: 1.8rem;
     font-size: 0.8rem;
 }
 /* header title */
@@ -228,12 +228,28 @@ main{
 @media screen and (max-width:576px){
       header{
         padding: 5px 10px ;
+
       }
+      .menubar ul li{
+        padding-left: .5rem;
+    }
 }
 @media screen and (max-width:576px){
     main{
       padding: 5px 10px ;
     }
+    .nav-container{
+        width: 100%;
+    }
+    .header-title{
+    
+        width:80%;
+        margin-inline: auto;
+    }
+    .header-title p{
+      text-align: justify;
+    }
+
     .team-container{
         flex-direction: column;
         padding-top: 20px;
