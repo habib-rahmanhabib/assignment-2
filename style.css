@@ -225,6 +225,7 @@ main{
 
 
 /* responsive for phone */
+/* header section */
 @media screen and (max-width:576px){
       header{
         padding: 5px 10px ;
@@ -246,7 +247,11 @@ main{
         width:80%;
         margin-inline: auto;
     }
+    .header-title h1{
+        font-size: 1.5rem;
+    }
     .header-title p{
+        padding-top:0.8rem;
       text-align: justify;
     }
 
