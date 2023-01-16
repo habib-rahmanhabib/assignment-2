@@ -1,0 +1,298 @@
+/* all section comment */
+body{
+    font-family: 'Work Sans';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/* header section */
+header{
+    padding: 50px 120px;
+    background: rgba(255, 144, 14, 0.1);
+}
+.architects{
+    font-size: 3vw;
+    font-weight: 900;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.menubar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menubar ul li{
+    padding-right: 1.8rem;
+    font-size: 0.8rem;
+}
+/* header title */
+.header-title{
+    
+    width:50%;
+    margin-inline: auto;
+}
+.header-title h1{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.first-image{
+    padding-top: 1.5rem;
+}
+/*  main section */
+main{
+    padding: 0 120px;
+    
+}
+/* image */
+.team-container{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    padding-top: 3rem;
+}
+.team-work, .quick-list{
+      width: 50%;;
+}
+.team-work{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.quick-list p{
+    padding-top: 1rem;
+}
+.explore{
+    margin-top: 1rem;
+}
+.future{
+     color: #727272;
+     font-size: 2rem;
+     font-weight: 200;
+    padding-top: 1.5rem;
+}
+.our{
+    color: black;
+    font-weight: 800;
+    
+}
+.feature{
+    color: #FF900E;
+     font-weight:800;
+}
+.quick-list button{
+       padding: 0.7rem 1.5rem;
+       background-color: orangered;
+       color: white;
+       border-radius: 0.5rem;
+       border: none;
+}
+/* About explain section */
+
+.explain-container{
+          display: flex;
+          padding-top: 2rem;
+          gap: 7rem;
+}
+.explain-title-seconte, .explain-title-first{
+    width: 50%;
+}
+.title-1 h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.title-2{
+    padding: 1rem 1rem;
+    background-color: rgb(253, 249, 249);
+    margin: 1rem 0;
+    box-shadow:4px 4px 4px rgb(243, 223, 223);
+}
+.title-2 h1{
+    font-size: 1.2rem;
+}
+.explain-title-seconte{
+    position: relative;
+    
+}
+.absolute{
+    background: #FF900E;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    padding: 0.5rem 1rem 0.7rem ;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.absolute h1{
+    font-size:1.8rem;
+}
+.absolute p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* soom-facts */
+.some-facts{
+    padding: 1.5rem 0;
+}
+
+.some-facts h1{
+    font-size: 1.5rem;
+   
+
+}
+/* icon-section */
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem
+    
+}
+.icon-header{
+    border: 1px solid red;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.icon-number{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    
+}
+.icon-header p{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+.icon-image{
+    
+    display: flex;
+    justify-content: center;    
+}
+.image-name{
+    width: 3rem;
+}
+/* sponsor section */
+.sponsor-container{
+    display: flex;
+    justify-content: center;
+    padding: 7rem;
+}
+.sponsor-title{
+    width: 45%;
+}
+.sponsor-title h1{
+    font-size: 2rem;
+    font-weight: 800rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.website-container{
+    display: flex;
+    justify-content: space-around;
+}
+.website-drescription{
+    display: flex;
+    justify-content: center;
+}
+.website-title{
+     width: 5rem;
+}
+/* footer container */
+.footer{
+         padding-top: 8rem;
+       text-align: center;
+       padding-bottom: 6rem;
+       
+}
+
+.footer-container{
+       background: #c7781e;
+       width: 100%; 
+       padding: 10px 0;
+       color: white;
+}
+
+
+
+/* responsive for phone */
+@media screen and (max-width:576px){
+      header{
+        padding: 5px 10px ;
+      }
+}
+@media screen and (max-width:576px){
+    main{
+      padding: 5px 10px ;
+    }
+    .team-container{
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 0rem;
+    }
+    .team-work{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .quick-list{
+        width: 100%;
+    }
+    .explain-container{
+        padding-top:0.1rem;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 20px;
+    }
+    .explain-title-first{
+        width: 100%;
+    }
+    .explain-title-seconte{
+        width: 100%;
+    }
+    .absolute{
+        bottom: -20px;
+        left: -10px;
+    }
+    .icon-container{
+        flex-direction: column;
+        padding-top: 0.3rem;
+    }
+    .icon-header{
+        margin-bottom: 10px;
+    }
+    .sponsor-container{
+        padding: 1.5rem;
+    }
+    .sponsor-container h1{
+        padding-bottom: 15px;
+    }
+    .sponsor-container p{
+        text-align: center;
+    }
+    .sponsor-title{
+        width: 100%;
+    }
+    .website-container{
+        flex-direction: column;
+    }
+    .website-drescription{
+        margin-bottom: 20px;
+    }
+    .website-title{
+        width: 10rem;
+   }
+   .footer{
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+   }
+    
+}
